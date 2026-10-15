@@ -70,9 +70,9 @@ with gr.Blocks(theme=gr.themes.Soft(), title="မြန်မာစာ အသံ
         "မှတ်ချက် — အသံဖန်တီးရန် အင်တာနက်လိုအပ်ပါတယ်။ Edge TTS ဝန်ဆောင်မှုရရှိနိုင်မှုအပေါ် မူတည်နိုင်ပါတယ်။"
     )
 
+
 if __name__ == "__main__":
-    
-demo.launch(
-    server_name="0.0.0.0",
-    server_port=int(os.environ.get("PORT", "10000"))
-)
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", "10000"))
+    )
